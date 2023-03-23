@@ -38,6 +38,12 @@ export const PieChart = () => {
             fill: colors.grey[100],
           },
         },
+        tooltip: {
+          container: {
+            background: colors.grey[900],
+            color: colors.grey[100],
+          },
+        },
       }}
     margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
     innerRadius={0.5}

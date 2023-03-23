@@ -38,6 +38,12 @@ export const BarChart = ({isDashboard = false}) => {
             fill: colors.grey[100],
           },
         },
+        tooltip: {
+          container: {
+            background: colors.grey[900],
+            color: colors.grey[100],
+          },
+        },
       }}
       keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
       indexBy="country"
